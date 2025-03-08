@@ -18,7 +18,7 @@
       </v-timeline-item>
     </v-timeline>
   </template>
-  <script setup>
+  <script setup name = '2025-3'>
     const years = [
     {
         color: 'orange',

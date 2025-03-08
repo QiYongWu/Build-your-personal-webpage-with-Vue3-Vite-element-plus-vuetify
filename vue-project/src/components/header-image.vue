@@ -1,13 +1,12 @@
 <script lang="ts" setup name = 'headerImage'>
   import { reactive, toRefs } from 'vue'
-  import type { ObjectFitProperty } from 'csstype'
   
   const state = reactive({
     fits: [
       
       'cover',
      
-    ] as ObjectFitProperty[],
+    ] ,
     // url: 'https://images.pexels.com/photos/68594/pexels-photo-68594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     url: new URL("@/assets/headerImage.jpg", import.meta.url).href,
   

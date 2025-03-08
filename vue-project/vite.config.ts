@@ -16,5 +16,9 @@ export default defineConfig({
     },
   },
 
+  
+
   base: process.env.NODE_ENV === 'production' ? '/Build-your-personal-webpage-with-Vue3-Vite-element-plus-vuetify/' : '/',
+
+
 })
