@@ -94,6 +94,20 @@ const routes = [
         path:'/Writing/2025/12',
         component:()=>import ('@/pages/Writing/content/2025/2025-12.vue'),
     },
+
+    {
+        path:'/Blog/front-end',
+        component:()=>import('@/pages/Blog/front-end.vue'),
+    },
+
+    {
+        path:'/Blog/backend',
+        component:()=>import('@/pages/Blog/backend.vue'),
+    },
+    {
+        path:'/Blog/backend',
+        component:()=>import('@/pages/Blog/AI.vue')
+    }
 ];
 
 const router = createRouter(

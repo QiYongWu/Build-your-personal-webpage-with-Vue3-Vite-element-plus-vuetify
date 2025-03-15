@@ -1,5 +1,7 @@
 <script setup lang="ts">
 // 可在此处添加响应式数据或方法
+
+import importantTimeList from './importantTimeList.vue';
 </script>
 
 <template>
@@ -7,6 +9,7 @@
     <!-- 头部区域 -->
     <header class="profile-header">
       <h1 class="gradient-title">吴永琦<span class="chinese-sub">的成长轨迹</span></h1>
+      <importantTimeList />
       <p class="academic-info">
         <span class="icon">🎓</span>桂林电子科技大学 · 智能科学与技术专业 · 2022级
       </p>
